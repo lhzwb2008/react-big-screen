@@ -62,11 +62,11 @@ module.exports = {
         },
         {
           title: '交互体验',
-          number: 82,
+          number: 86,
         },
         {
           title: '安全防护',
-          number: 85,
+          number: 91,
         },
       ],
       offlinePortalData: {

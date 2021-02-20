@@ -26,35 +26,35 @@ class index extends PureComponent {
           <div className='right-top'>
             <ModuleTitle>
               <i className='iconfont'>&#xe7f7;</i>
-              <span>关联数据类别分布</span>
+              <span>方法论展示</span>
             </ModuleTitle>
             <div className='right-top-content'>
               <BrowseCategories
                 browseCategories={browseCategories}></BrowseCategories>
-              <img
+              {/* <img
                 alt='地球'
                 className='earth-gif'
                 src={require('../../assets/images/earth-rotate.gif')}
-              />
+              /> */}
             </div>
           </div>
         </RightTopBox>
 
-        <RightCenterBox>
+        {/* <RightCenterBox>
           <ModuleTitle>
             <i className='iconfont'>&#xe7fd;</i>
             <span>平均用户类别排布</span>
           </ModuleTitle>
           <UserIdentityCategory
             userIdentityCategory={userIdentityCategory}></UserIdentityCategory>
-        </RightCenterBox>
+        </RightCenterBox> */}
 
         <RightBottomBox>
           <BorderBox13 className='right-bottom-borderBox13'>
             <div className='right-bottom'>
               <ModuleTitle>
                 <i className='iconfont'>&#xe790;</i>
-                <span>今日线下门户流量</span>
+                <span>客户反馈</span>
               </ModuleTitle>
               {/* 反馈 */}
               <div className='feedback-box'>

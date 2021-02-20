@@ -8,7 +8,7 @@ export const RightPage = styled.div`
 
 export const RightTopBox = styled.div`
   position: relative;
-  height: 3rem;
+  height: 6.125rem;
   width: 100%;
   margin-bottom: 0.25rem;
   .right-top {

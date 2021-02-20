@@ -9,14 +9,15 @@ export const BrowseCategoriesOptions = params => ({
       type: 'funnel',
       min: 0,
       max: 100,
-      left: 20,
+      left:0,
       top: 0,
-      width: '80%',
+      width: '100%',
       height: '100%',
       minSize: '0%',
       maxSize: '100%',
       sort: 'ascending',
       gap: 0,
+      color: ['#60acfc', '#32d3eb', '#feb64d', '#9287e7'],
       itemStyle: {
         borderColor: '#fff',
         borderWidth: 1

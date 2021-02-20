@@ -4,13 +4,13 @@ export const trafficOptions = (params) => ({
   title: {
     show: false,
   },
-  legend: {
-    show: true,
-    top: '5%',
-    textStyle: {
-      color: '#c0c9d2',
-    },
-  },
+  // legend: {
+  //   show: true,
+  //   top: '5%',
+  //   textStyle: {
+  //     color: '#c0c9d2',
+  //   },
+  // },
   tooltip: {
     trigger: 'axis',
     axisPointer: {
@@ -91,60 +91,60 @@ export const trafficOptions = (params) => ({
     },
   },
   series: [
+    // {
+    //   name: '出口流量',
+    //   type: 'line',
+    //   smooth: true, //是否平滑
+    //   lineStyle: {
+    //     normal: {
+    //       color: '#00b3f4',
+    //       shadowColor: 'rgba(0, 0, 0, .3)',
+    //       shadowBlur: 0,
+    //       shadowOffsetY: 5,
+    //       shadowOffsetX: 5,
+    //     },
+    //   },
+    //   label: {
+    //     show: false,
+    //     position: 'top',
+    //     textStyle: {
+    //       color: '#00b3f4',
+    //     },
+    //   },
+    //   // 去除点标记
+    //   symbolSize: 0,
+    //   // 鼠标放上去还是要有颜色的
+    //   itemStyle: {
+    //     color: '#00b3f4',
+    //   },
+    //   // 设置渐变色
+    //   areaStyle: {
+    //     normal: {
+    //       color: new echarts.graphic.LinearGradient(
+    //         0,
+    //         0,
+    //         0,
+    //         1,
+    //         [
+    //           {
+    //             offset: 0,
+    //             color: 'rgba(0,179,244,0.3)',
+    //           },
+    //           {
+    //             offset: 1,
+    //             color: 'rgba(0,179,244,0)',
+    //           },
+    //         ],
+    //         false
+    //       ),
+    //       shadowColor: 'rgba(0,179,244, 0.9)',
+    //       shadowBlur: 20,
+    //     },
+    //   },
+    //   data: params.outData,
+    // },
     {
-      name: '出口流量',
-      type: 'line',
-      smooth: true, //是否平滑
-      lineStyle: {
-        normal: {
-          color: '#00b3f4',
-          shadowColor: 'rgba(0, 0, 0, .3)',
-          shadowBlur: 0,
-          shadowOffsetY: 5,
-          shadowOffsetX: 5,
-        },
-      },
-      label: {
-        show: false,
-        position: 'top',
-        textStyle: {
-          color: '#00b3f4',
-        },
-      },
-      // 去除点标记
-      symbolSize: 0,
-      // 鼠标放上去还是要有颜色的
-      itemStyle: {
-        color: '#00b3f4',
-      },
-      // 设置渐变色
-      areaStyle: {
-        normal: {
-          color: new echarts.graphic.LinearGradient(
-            0,
-            0,
-            0,
-            1,
-            [
-              {
-                offset: 0,
-                color: 'rgba(0,179,244,0.3)',
-              },
-              {
-                offset: 1,
-                color: 'rgba(0,179,244,0)',
-              },
-            ],
-            false
-          ),
-          shadowColor: 'rgba(0,179,244, 0.9)',
-          shadowBlur: 20,
-        },
-      },
-      data: params.outData,
-    },
-    {
-      name: '入口流量',
+      name: '历年收入',
       type: 'line',
       smooth: true, //是否平滑
       // 阴影

@@ -1,12 +1,11 @@
 // 左侧界面数据
 module.exports = {
   'GET /api/leftPageData': {
-    accessFrequency: 1500,
-    peakFlow: 300,
+    // accessFrequency: 1500,
+    // peakFlow: 300,
     trafficSitua: {
-      timeList: ['9:00', '12:00', '15:00', '18:00', '21:00', '00:00'],
-      outData: [502.84, 205.97, 332.79, 281.55, 398.35, 214.02],
-      inData: [281.55, 398.35, 214.02, 179.55, 289.57, 356.14],
+      timeList: ['2015','2016', '2017', '2018', '2019', '2020'],
+      inData: [1.2, 2, 2.8, 3.9, 5, 6],
     },
     userSitua: {
       header: ['用户', '时间', '状态'],

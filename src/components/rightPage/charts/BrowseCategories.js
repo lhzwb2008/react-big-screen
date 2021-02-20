@@ -17,8 +17,8 @@ class BrowseCategories extends PureComponent {
     return (
       <div
         style={{
-          width: '5.375rem',
-          height: '2.5rem',
+          width: '6rem',
+          height: '5rem',
         }}>
         {browseCategories ? (
           <Chart
